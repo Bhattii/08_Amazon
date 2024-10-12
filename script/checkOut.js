@@ -1,6 +1,5 @@
-import { cart } from '../data/cart';
-import { products } from '../data/products';
-
+import { cart } from '../data/cart.js';
+import { products } from '../data/products.js';
 let cartSummaryHTML = '';
 
 cart.forEach((cartItem) => {
@@ -12,7 +11,7 @@ cart.forEach((cartItem) => {
 			matchingProduct = product;
 		}
 	});
-	cartSummaryHTML += `	<div class="cart-item-container">
+	cartSummaryHTML += `<div class="cart-item-container">
 						<div class="delivery-date">Delivery date: Tuesday, June 21</div>
 
 						<div class="cart-item-details-grid">
