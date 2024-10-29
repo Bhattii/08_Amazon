@@ -64,5 +64,5 @@ function updateDeleiveryOption(productId, deleiveryOptionId) {
 			matchingItem = cartItem;
 		}
 	});
-	matchingItem.deleiveryOptionId = 
+	matchingItem.deleiveryOptionId;
 }
